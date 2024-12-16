@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">2048 遊戲</h1>
+    <div class="instructions">
+        <div class="instructions-item">
+            <h4>遊戲方法：</h4>
+            <p>使用方向鍵移動方塊，當兩個相同數字的方塊相鄰時，它們會合併成一個數字是兩個數字之和的方塊。</p>
+        </div>
+        
+        <div class="instructions-item">
+            <h4>遊戲目標：</h4>
+            <p>遊戲目標是將所有方塊合併成一個數字為2048的方塊。</p>
+        </div>
+
+        <div class="instructions-item">
+            <h4>遊戲結束條件：</h4>
+            <p>
+                1. 當方塊無法移動時，遊戲結束。<br>
+                2. 當方塊合併成2048時，遊戲結束。
+            </p>
+        </div>
+    </div>
+
+    <div class="scoreContainer">
+        <div class="scoreTitle">Score</div>
+        <span id="score">0</span>
+    </div>
+
+    <div class="grid"></div>
+</body>
+</html>
